@@ -1,0 +1,12 @@
+SNOW III - Death Match
+Map by Skorz (skorz@luukku.com)
+Speacial thanks to Air
+
+Terrorists: Kill CT's
+
+Counter-Terrorists: Kill T's
+
+Other Notes: Round does not end until 
+one team has been eliminated!
+
+(Press FIRE to continue)

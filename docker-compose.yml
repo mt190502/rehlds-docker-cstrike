@@ -1,0 +1,9 @@
+services:
+  rehlds-cstrike:
+    ports:
+      - 27015:27015
+      - 27015:27015/udp
+    image: mt190502/rehlds-cstrike:latest
+    # volumes:
+      # - ./cstrike:/opt/steam/new-cstrike                 # For override
+    command: -game cstrike +map de_dust2 +maxplayers 16 +rcon_password RCON_PASSWORD +sv_password SV_PASSWORD -strictportbind -ip 0.0.0.0 +port 27015

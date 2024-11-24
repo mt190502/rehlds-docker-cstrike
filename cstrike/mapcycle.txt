@@ -1,0 +1,7 @@
+cs_italy
+cs_office
+cs_assault
+cs_militia
+de_dust2
+de_nuke
+de_inferno
