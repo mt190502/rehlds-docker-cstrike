@@ -97,7 +97,7 @@ RUN curl -sL "$reunion_url" -o "reunion.zip" \
 
 #~ Install Custom AMX Plugins
 COPY ./lib/amxmodx hlds/cstrike/addons/amxmodx/
-RUN echo 'damager_next.amxx                 ; show damage' >> hlds/cstrike/addons/amxmodx/configs/plugins.ini \
+RUN echo 'damager_reapi.amxx                 ; show damage' >> hlds/cstrike/addons/amxmodx/configs/plugins.ini \
     && echo 'next21_kill_assist.amxx             ; kill assist mode' >> hlds/cstrike/addons/amxmodx/configs/plugins.ini
 
 #~ Clean up
