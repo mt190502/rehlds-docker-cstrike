@@ -99,7 +99,7 @@ RUN curl -sL "$reunion_url" -o "reunion.zip" \
 COPY ./lib/amxmodx hlds/cstrike/addons/amxmodx/
 RUN echo 'damager_reapi.amxx                 ; show damage' >> hlds/cstrike/addons/amxmodx/configs/plugins.ini \
     && echo 'next21_kill_assist.amxx             ; kill assist mode' >> hlds/cstrike/addons/amxmodx/configs/plugins.ini \
-	&& echo 'resetscore.amxx          ; reset user score' >> hlds/cstrike/addons/amxmodx/configs/plugins.ini
+    && echo 'resetscore.amxx          ; reset user score' >> hlds/cstrike/addons/amxmodx/configs/plugins.ini
 
 #~ Clean up
 RUN rm -rf "rehlds.zip" "rehlds" "metamod.zip" "metamod" "regamedll.zip" "regamedll" "reunion.zip" "reunion" "hlds.install" "reapi.zip" "reapi" 
